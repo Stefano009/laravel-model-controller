@@ -3,4 +3,3 @@
     Movies
 @endsection
 
-@include('partials.main')

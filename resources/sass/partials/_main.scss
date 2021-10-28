@@ -1,0 +1,26 @@
+main {
+    background-color: rgba(0, 170, 187, 1);
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        .card {
+            height: 300px;
+            width: 300px;
+            .photo {
+                height: 30%;
+                width: 30%;
+                background-color: gray;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 20px;
+                
+            }
+            .text-card {
+                font-size: .9rem;
+            }
+        }
+    }
+}
